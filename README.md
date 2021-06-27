@@ -1,38 +1,32 @@
 ## My Notebook
 
-contains all stuff i would need store and recall / read or some info i would like to store in archive
+My Digital notebook, it Contains all stuff i would need store / recall / read or maybe stuff i would like to archive
 
-```bash
-# Folder Structure
+[![visit](https://img.shields.io/badge/View--Notebook-@notebook.sujaykumarh.com-blue?style=for-the-badge&logo=link)](https://notebook.sujaykumarh.com/#/)
 
-root
-  |-/archive        # archived stuff
-  |-/code           # coding related
-  |-/electronics    # electronics related
-  |-/extra          # extra stuff
-  |-/null           # unlabeled, uncategoriezed stuff
-  |
-  |-/books.md       # books related
-  |-/links.md       # urls to resources
-```
 
 <br>
 
-## Table of contents
+**Support**
 
-- [archive](archive)
-- [books](books.md)
-- [code](code)
-- [electronics](electronics)
-- [extra](extra)
-- [links](links.md)
-- [null](null)
+If you find the content useful consider supporting
 
+<!-- [![](https://img.shields.io/badge/patreon-%23F96854.svg?&style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/sujaykumarh) -->
+[![](https://img.shields.io/badge/kofi-%23579fbf.svg?&style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/sujaykumarh)
+[![](https://img.shields.io/badge/buy%20me%20a%20coffee-%23f7ba56.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/sujaykumarh)
+<!-- [![]()]() -->
+
+
+<br>
+
+**Contributing**
+
+Currently this repo does not accept any pull requests or issues but, will allow it in near future untill then if you would like to get in touch reach out to me via mail [hello@sujaykumarh.com](mailto://hello@sujaykumarh.com)
 
 <br>
 
 ## LICENSE
 
-**Creative Commons Zero v1.0 Universal - CC0 Public Domain**
+Content license under **Creative Commons Zero v1.0 Universal - CC0 Public Domain**
 
 Read [LICENSE](LICENSE)
