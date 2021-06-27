@@ -379,7 +379,7 @@
 
 <br>
 
-## 🧑‍🔬 Travel & Lifestyle
+## 🚋 Travel & Lifestyle 🚙
 
 - [CaseyNeistat](https://www.youtube.com/user/caseyneistat/videos)
 
@@ -395,7 +395,7 @@
 
 <br>
 
-## 📱 💻 Technology
+## 📱 Technology 💻
 
 - [Austin Evans](https://www.youtube.com/user/duncan33303/videos)
 
