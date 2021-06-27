@@ -1,0 +1,148 @@
+:root {
+    --primary: #0f5d9c;
+    --pirmary-dark: #0a4677;
+    --pirmary-light: #348bd3;
+}
+
+*{
+    /* Default transitions */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.markdown-section code, .markdown-section pre{
+    background: #e5e5e5 !important;
+}
+
+.markdown-section pre{
+    border-radius: .8rem !important;
+    /* padding: 2rem !important; */
+}
+
+.docsify-copy-code-button{
+    border-radius: .5rem !important;
+    margin-top: 10px !important;
+}
+
+.docsify-copy-code-button .error{
+    background-color: #e96565 !important;
+}
+
+.docsify-copy-code-button .success{
+    background-color: #65e998 !important;
+}
+
+.docsify-copy-code-button.error .error, .docsify-copy-code-button.success .success,
+.docsify-copy-code-button .error, .docsify-copy-code-button .success{
+    right: 0 !important;
+    color: #fff !important;
+    -webkit-transform: translate(-2rem,2rem) !important;
+    transform: translate(-2rem,2rem) !important;
+}
+
+#main{
+    min-height: 750px;
+}
+
+hr.light{
+    color: #e5e5e5;
+    /* border-top: 1px solid #e5e5e5; */
+}
+
+.sidebar hr{
+    color: rgba(0, 0, 0, .15);
+}
+
+footer{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 2rem;
+    width: 100%;
+    /* text-align: right; */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+footer .copyright{
+    text-align: left;
+}
+
+footer .poweredBy{
+    position: absolute;
+    right: 0;
+}
+
+
+
+#main{
+    min-height: 750px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.sidebar .app-sub-sidebar .active,
+.sidebar .active,
+.sidebar a:hover{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.sidebar a:hover{
+    color: var(--primary) !important;
+    text-decoration: none !important;
+    background: #f0f0f0;
+}
+
+.sidebar p:hover:not(.active){
+    padding-left: 5px;
+}
+
+.sidebar .app-sub-sidebar .active a{
+    background: #f0f0f0;
+}
+
+.sidebar .active a:not(.app-sub-sidebar *){
+    color: var(--primary) !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    background: #f0f0f0;
+    border-right: solid 2px var(--primary);
+    padding-left: 10px;
+}
+
+.sidebar .app-sub-sidebar .active *{
+    color: var(--primary) !important;
+}
+
+.sidebar-nav li *{
+    font-size: 1rem !important;
+    padding-bottom: 5px;
+}
+
+#main a:not(footer){
+    color: var(--primary) !important;
+    text-decoration: none !important;
+}
+
+#main p a:not(footer),
+#main a:hover:not(footer){
+    /* color: var(--primary-dark) !important; */
+    text-decoration: underline dotted !important;
+}
+
+
+footer a{
+    text-decoration: underline dotted !important;
+}
+
+footer a:hover{
+    text-decoration: underline !important;
+}
+
+.github-corner svg{
+    fill: var(--primary);
+}

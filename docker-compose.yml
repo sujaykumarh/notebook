@@ -1,0 +1,20 @@
+version: '3'
+
+networks:
+  mynotebook_network:
+    driver: bridge
+
+services:
+  docsify:
+    # user: ${CURRENT_UID}
+    image:  ghcr.io/sujaykumarh/docsify:latest
+    container_name: mynotebook_docsify
+    restart: unless-stopped
+    networks:
+      - mynotebook_network
+    ports:
+      - $HTTP_PORT:3000
+      - $LIVE_SERVER:$LIVE_SERVER
+    volumes:
+      - ./docs:/docs    # Source
+    command: serve --livereload-port=$LIVE_SERVER
