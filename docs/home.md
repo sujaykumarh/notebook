@@ -4,7 +4,7 @@
 
 * [🏠 Home](/ "Home")
 
-* [💻 Software / Programming](/code/index.md "Programming Related")
+* [💻 Software / Programming](/software/index.md "Programming Related")
 
 * [🤖 Electronics](/electronics/index.md "Electronics Related")
 
@@ -12,10 +12,13 @@
 
 * [🔗 Links](/links/index.md "Home")
 
-* [📚 Books](/reading/index.md "Books")
+* [📚 Read](/reading/index.md "Reading list")
 
 <!-- * [🏠 Home](/category/index.md "Home") -->
 
-* [⚫ /dev/null](/null/index.md "/dev/null - unsorted")
+
+---
+
+- [⚫ /dev/null](/null/index.md "/dev/null - unsorted")
 
 - [📦 Archive](/archive)

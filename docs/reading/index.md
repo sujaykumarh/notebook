@@ -1,1 +1,8 @@
-# Reading List
+# 📖 Reading List
+
+> reading list
+
+
+## 📗 Books
+
+## 🗄️ Other
