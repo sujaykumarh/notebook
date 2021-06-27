@@ -123,11 +123,13 @@ a, a:hover {
     padding-bottom: 5px;
 }
 
+.app-nav a,
 #main a:not(footer){
     color: var(--primary) !important;
     text-decoration: none !important;
 }
 
+.app-nav a:hover,
 #main p a:not(footer),
 #main a:hover:not(footer){
     /* color: var(--primary-dark) !important; */
