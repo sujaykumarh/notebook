@@ -1,8 +1,11 @@
 # My Notebook
 
+> Notebook sorted by category
 #### Contents
 
 * [🏠 Home](/ "Home")
+
+* [📚 Reading list](/reading/index.md "Reading list")
 
 * [💻 Software / Programming](/software/index.md "Programming Related")
 
@@ -10,12 +13,7 @@
 
 * [📁 Extra](/extra/index.md "Extra stuff")
 
-* [🔗 Links](/links/index.md "Home")
-
-* [📚 Read](/reading/index.md "Reading list")
-
 <!-- * [🏠 Home](/category/index.md "Home") -->
-
 
 ---
 
