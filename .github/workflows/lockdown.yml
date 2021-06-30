@@ -5,8 +5,8 @@ on:
     types: [opened]
   pull_request:
     types: [opened]
-  schedule:
-    - cron: '0 0 * * SUN'
+  # schedule:
+  #   - cron: '0 0 * * SUN'
 
 jobs:
   lockdown:
