@@ -109,32 +109,38 @@
       notFoundPage: '_404.md',  // load custom 404
 
 
-      plugins: [
-        function(hook, vm) {
-          // add footer
-          var footer = [
-            '<footer>',
-            '<span class="poweredBy">Powered by <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-            '<span class="copyright">&copy; ' + new Date().getFullYear() + ' <a href="https://github.com/sujaykumarh">sujaykumarh</a>. <br> Content Licensed under: <a target="_blank" href="https://github.com/Sujaykumarh/my-notebook/blob/main/LICENSE">CC0 - Public domain</a></span>',
-            '</footer>'
-          ].join('');
+      // plugins: [
+      //   function(hook, vm) {
+      //     // add footer
+      //     // var footer = [
+      //     //   '<footer>',
+      //     //   '<span class="poweredBy">Powered by <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+      //     //   '<span class="copyright">&copy; ' + new Date().getFullYear() + ' <a href="https://github.com/sujaykumarh">sujaykumarh</a>. <br> Content Licensed under: <a target="_blank" href="https://github.com/Sujaykumarh/my-notebook/blob/main/LICENSE">CC0 - Public domain</a></span>',
+      //     //   '</footer>'
+      //     // ].join('');
 
-          // hook.beforeEach(function(html) {
-          //   console.log(html)
-          //   return html;
-          // });
+      //     // hook.beforeEach(function(html) {
+      //     //   console.log(html)
+      //     //   return html;
+      //     // });
 
-          hook.afterEach(function(html) {
-            return html + footer;
-          });
-        },
-      ],
+      //     // hook.afterEach(function(html) {
+      //     //   return html + footer;
+      //     // });
+      //   },
+      // ],
     }
 
 
     window.$docsify.customPageTitle = {
       prefix:   'Notebook',
       suffix:   'sujaykumarh',
+    }
+
+    window.$docsify.customPageFooter = {
+      copyrightOwnerName: 'Sujaykumar Hublikar',
+      copyrightOwnerLink: 'https://github.com/sujaykumarh',
+      copyrightExtra: '<br>Content Licensed under: <a target="_blank" href="https://github.com/Sujaykumarh/my-notebook/blob/main/LICENSE">CC0 - Public domain</a></span>',
     }
   </script>
 
@@ -160,5 +166,10 @@
 
   <!-- Page Title -->
   <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
+
+  <!-- Page Footer -->
+  <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-footer@1.x/dist/plugin.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-footer@1.x/dist/plugin.min.css">
+
 </body>
 </html>

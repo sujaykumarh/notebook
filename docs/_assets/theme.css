@@ -54,26 +54,6 @@ hr.light{
     color: rgba(0, 0, 0, .15);
 }
 
-footer{
-    border-top: 1px solid #e5e5e5;
-    padding-top: 2rem;
-    width: 100%;
-    /* text-align: right; */
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 1rem;
-}
-
-footer .copyright{
-    text-align: left;
-}
-
-footer .poweredBy{
-    position: absolute;
-    right: 0;
-}
-
-
 
 #main{
     min-height: 750px;
@@ -125,26 +105,14 @@ a, a:hover {
 }
 */
 
-.app-nav a,
-#main a:not(footer){
+.app-nav a{
     color: var(--primary) !important;
     text-decoration: none !important;
 }
 
-.app-nav a:hover,
-#main p a:not(footer),
-#main a:hover:not(footer){
+.app-nav a:hover{
     /* color: var(--primary-dark) !important; */
     text-decoration: underline dotted !important;
-}
-
-
-footer a{
-    text-decoration: underline dotted !important;
-}
-
-footer a:hover{
-    text-decoration: underline !important;
 }
 
 .github-corner svg{
