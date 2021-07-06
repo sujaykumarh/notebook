@@ -3,15 +3,21 @@
 > Stuff that do not have dedicated category to go into
 
 
-* [🎨 Inspire](/extra/inspire.md "Get Inspired")
+* [🎨 Inspire](/extra/inspire.md "Get Inspired") - Get Inspired
+    * [🖌️ Design](/extra/inspire?id=%f0%9f%96%8c%ef%b8%8f-design)
+    * [🎨 Art](/extra/inspire?id=%f0%9f%8e%a8-art)
     <!-- * []() -->
 
-* [🎧 Podcasts](/extra/podcasts.md "Podcasts")
+<br>
+
+* [🎧 Podcasts](/extra/podcasts.md "Podcasts") - good Podcasts
     * [🛡️ Cyber Security](/extra/podcasts?id=%f0%9f%9b%a1%ef%b8%8f-cyber-security)
     * [📁 Other](/extra/podcasts?id=%f0%9f%93%81-other)
     <!-- * []() -->
 
-* [📺 YouTube](/extra/youtube.md "YouTube Creators")
+<br>
+
+* [📺 YouTube](/extra/youtube.md "YouTube Creators") - good YouTube Creators
 
     * [📗 Educational](/extra/youtube?id=%f0%9f%93%97-educational)
     * [🧑‍🔬 Engineering & Science](/extra/youtube?id=%f0%9f%a7%91%f0%9f%94%ac-engineering-amp-science)
@@ -30,5 +36,5 @@
     * [🗄️ Other](/extra/youtube?id=%f0%9f%97%84%ef%b8%8f-other)
     <!-- * []() -->
 
-* [🔗 Links](/extra/links.md "Links to Other resources")
-    <!-- * []() -->
+<!-- * [🔗 Links](/extra/links.md "Links to Other resources") -->
+<!--      * []() -->
