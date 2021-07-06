@@ -4,14 +4,6 @@
 
 Contents
 
-* #### [Learn](/software/learn)
-    * [frontend](/software/learn?id=frontend)
-    * [backend](/software/learn?id=frontend)
-    * [other](/software/learn?id=other)
-
-* #### [Projects](/software/projects)
-    * [frontend](/software/projects?id=frontend)
-    * [backend](/software/projects?id=frontend)
-    * [other](/software/learn?id=other)
-
-* #### [Other](/software/other)
+* #### [📗 Learn](/software/learn.md "Software Learning")
+* #### [🗂️ Notes](/software/notes.md "Software Notes")
+* #### [🗄️ Other](/software/other.md "Software Other")

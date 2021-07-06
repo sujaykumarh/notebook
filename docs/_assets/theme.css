@@ -1,7 +1,7 @@
 :root {
     --primary: #0f5d9c;
-    --pirmary-dark: #0a4677;
-    --pirmary-light: #348bd3;
+    --primary-dark: #0a4677;
+    --primary-light: #348bd3;
     --theme-color: #0f5d9c;
 }
 
@@ -62,7 +62,7 @@ hr.light{
 
 a, a:hover {
     text-decoration: none;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 
 .sidebar .app-sub-sidebar .active,
