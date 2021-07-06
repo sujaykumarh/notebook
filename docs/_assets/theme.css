@@ -2,6 +2,7 @@
     --primary: #0f5d9c;
     --pirmary-dark: #0a4677;
     --pirmary-light: #348bd3;
+    --theme-color: #0f5d9c;
 }
 
 *{
@@ -81,8 +82,14 @@ a, a:hover {
     padding-left: 5px;
 }
 
+.markdown-section blockquote,
 .sidebar .app-sub-sidebar .active a{
     background: #f0f0f0;
+}
+
+.markdown-section blockquote p{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .sidebar .active a:not(.app-sub-sidebar *){
@@ -105,16 +112,16 @@ a, a:hover {
 }
 */
 
-.app-nav a{
+#main a{
     color: var(--primary) !important;
     text-decoration: none !important;
 }
 
-.app-nav a:hover{
-    /* color: var(--primary-dark) !important; */
+#main p a{
     text-decoration: underline dotted !important;
 }
 
-.github-corner svg{
-    fill: var(--primary);
+#main a:hover{
+    color: var(--primary-dark) !important;
+    text-decoration: underline dotted !important;
 }
