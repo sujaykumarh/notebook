@@ -1,3 +1,5 @@
 # /dev/null
 
-uncategoried / unsorted / unlabeled - basically todo stuff
+> uncategoried / unsorted / unlabeled - basically todo stuff
+
+[⬅️ home](/)

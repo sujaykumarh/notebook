@@ -2,6 +2,8 @@
 
 > electronics learning resources
 
+[⬅️ index](/electronics/index)
+
 Good [YouTube Channels](/extra/youtube) for learning 👉 [🤖 Electronics](extra/youtube?id=%f0%9f%a4%96-electronics)
 
 ## ⭐ Must Learn

@@ -4,6 +4,8 @@
 
 !> checkout pricing page of freemium service before you start using it to know free tier limits.
 
+[⬅️ home](/)
+
 I use [Free Open Source Software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software) in my workflows and some [freemium](https://en.wikipedia.org/wiki/Freemium) services by some good providers here are some recommendations.
 
 

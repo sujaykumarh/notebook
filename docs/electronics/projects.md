@@ -2,6 +2,8 @@
 
 > electronics based projects list
 
+[⬅️ index](/electronics/index)
+
 ## Raspberry Pi
 
 * [PiHole](https://pi-hole.net/) - local DNS for blocking tracking and ads from your network. __[Recommended]__

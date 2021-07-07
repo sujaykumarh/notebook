@@ -2,6 +2,8 @@
 
 > Stuff that do not have dedicated category to go into
 
+[⬅️ home](/)
+
 
 * [🎨 Inspire](/extra/inspire.md "Get Inspired") - Get Inspired
     * [🖌️ Design](/extra/inspire?id=%f0%9f%96%8c%ef%b8%8f-design)
