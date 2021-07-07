@@ -84,11 +84,11 @@ some other stuff to consider
 websites to learn from **bookmark these**
 
 * [stackoverflow.com](https://stackoverflow.com/) - great fourm to ask / find answers
+* [License your code / software under opensource](https://opensource.org/licenses) - pick whats suitable for you if you wish to publish your work under open-source
 * [Medium.com](https://medium.com/topics) - articles for learning / sharing
 * [tutorialspoint.com](https://www.tutorialspoint.com/tutorialslibrary.htm) - very wide range of contents for self learning in their library
 * [youtube.com](https://www.youtube.com/) - free learning by some amazing creators. checkout my [list](/extra/youtube)
 * [geeksforgeeks.org](https://www.geeksforgeeks.org/) - another great self learning site
 * [github.com](https://github.com/) - learn by digging. there are thousands & thousands of projects for any given topic you can learn by reading source code of open source projects hosted at github.
 * [Google](https://www.google.com/) - Just google stuff you need or search error youll find lot of possible solutions
-<!-- * []() -->
 <!-- * []() -->

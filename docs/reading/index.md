@@ -19,4 +19,13 @@
 <!-- * []() - by []() -->
 <!-- * []() - by []() -->
 
-<!-- ## 🗄️ Other -->
+## 🗄️ Other
+
+**Licensing**
+
+* [License your media under CreativeCommons](https://creativecommons.org/choose/) - share your media under creative commons license
+* [License your code / software under opensource](https://opensource.org/licenses) - pick whats suitable for you if you wish to publish your work under open-source
+
+**Security**
+
+* [Software Security](/software/security) - learn about software security.
