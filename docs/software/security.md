@@ -10,3 +10,10 @@ Some helpful links
 
 * [Open Web Application Security Project](https://owasp.org/)® aka [owasp.org](https://owasp.org/) nonprofit foundation that works to improve the security of software. Read through their resources to understand Application Security better
 
+**Videos**
+
+* [HackerSploit - Linux Security](https://www.youtube.com/playlist?list=PLBf0hzazHTGMG7fJvZoAAw-JE3WyMIOQv) - common security fundamentals
+* [NetworkChuck - 5 Steps to Secure Linux (protect from hackers)](https://www.youtube.com/watch?v=ZhMw53Ud2tY)
+* [LiveOverflow - Protect Linux Server From Hackers](https://www.youtube.com/watch?v=fKuqYQdqRIs)
+* [Chris Titus Tech - How To Secure A Server](https://www.youtube.com/watch?v=7pJKBL9x6bY)
+<!-- * []() - desc -->

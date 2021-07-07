@@ -10,6 +10,7 @@ links to some useful resources
 
 * [Linux](https://en.wikipedia.org/wiki/Linux) - Use Linux its all you'll ever need.
 * [Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release) - FOSS browser
+* [DuckDuckGo](https://start.duckduckgo.com/?kak=-1&kal=-1&kao=-1&kaq=-1&kae=d&kak=-1&kal=-1&kao=-1&kaq=-1&k1=-1&kam=google-maps&kax=-1&kap=-1&kau=-1&atb=v1-1) - Search Engine alternative to Google
 * [Libre Office](https://www.libreoffice.org/) - FOSS suite productivity software (presentation, word, excel and more..), alternative to MS Office suite
 * [Oracle VirtualBox](https://www.virtualbox.org/) - FOSS Virtual Machine manger by Oracle
 * [VLC](https://www.videolan.org/vlc/) - FOSS best Audio / Video player
@@ -18,6 +19,15 @@ links to some useful resources
 * [GNU Cash](https://gnucash.org/) - FOSS Accounting software
 * [ThunderBird](https://www.thunderbird.net/en-US/) - FOSS eMail client
 <!-- * []() - desc -->
+
+**Windows**
+
+* [O&O Shutup](https://www.oo-software.com/en/shutup10) - free antispy tool for Windows 10
+* [Simplewall](https://www.henrypp.org/product/simplewall) - FOSS firewall by henrypp for windows
+* [debloat-windows](https://github.com/Sycnex/Windows10Debloater/) - debloat script by syncex [git.io/debloat](https://git.io/debloat)
+* [christitus debloat-windows](https://christitus.com/debloat-windows-10-2020/) - christitus windows debloat script [git.io/JJ8R4](https://git.io/JJ8R4)
+* [Chrome Standalone](https://www.google.com/intl/en/chrome/?standalone=1) - download chrome offline installer
+
 
 ### 💻 Software Dev
 
