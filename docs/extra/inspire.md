@@ -2,6 +2,8 @@
 
 > Links to resources for inspiration
 
+[⬅️ index](/extra/index)
+
 ## 🖌️ Design
 
 Designs, UI / UX Stuff

@@ -19,6 +19,12 @@
     * [📁 Projects](/electronics/projects.md "Electronics Projects")
     * [🗄️ Other](/electronics/other.md "Electronics Other")
 
+* [🛠️ Tools and Services](/tools/index.md "Tools / Services")
+
+    * [⭐ Must Have](/tools/must.md "Tools and Services | Must Have")
+    * [📗 Notes / Workflow](/tools/notes-workflow.md "Tools and Services | Notes & Workflow")
+    * [🔗 Links](/tools/links.md "Links to resources")
+
 * [📁 Extra](/extra/index.md "Extra stuff")
 
     * [🎨 Inspire](/extra/inspire.md "Get Inspired")
