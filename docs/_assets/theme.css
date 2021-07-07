@@ -126,3 +126,69 @@ a, a:hover {
     color: var(--primary-dark) !important;
     text-decoration: underline dotted !important;
 }
+
+
+/* SideBar Toggle */
+
+.sidebar{
+    padding-top: 6rem;
+}
+
+body .sidebar-toggle{
+    position: fixed;
+    top: 0;
+    bottom: unset;
+    left: 0;
+    width: auto;
+    background: rgba(221, 216, 216, 0.295);
+    float: right;
+    border-bottom-right-radius: 8px;
+}
+
+body .sidebar-toggle .sidebar-toggle-button{
+    float: right;
+    padding-bottom: 1rem;
+    /* padding-top: 1rem; */
+}
+
+body.close .sidebar-toggle{
+    background: rgba(109, 113, 119, 0.185);
+}
+
+@media screen and (min-width:769px) {
+
+    body:not(.close) .sidebar-toggle .sidebar-toggle-button{
+        margin-right: 2rem;
+    }
+
+    body .sidebar-toggle{
+        width: 300px;
+        /* background: rgba(109, 113, 119, 0.185); */
+    }
+
+    body .sidebar-toggle .sidebar-toggle-button{
+        padding-top: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    body.close .sidebar-toggle{
+        background: rgba(221, 216, 216, 0.295);
+        /* background: red; */
+    }
+
+
+    body .sidebar-toggle{
+        background: rgba(109, 113, 119, 0.185);
+        /* background: green; */
+        /* background: rgba(109, 113, 119, 0.185); */
+    }
+
+    body.close .sidebar-toggle .sidebar-toggle-button{
+        padding-top: 1rem;
+    }
+
+}
