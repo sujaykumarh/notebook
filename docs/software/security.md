@@ -10,10 +10,14 @@ Some helpful resources
 
 ### 📖 Reading
 
-* [Open Web Application Security Project](https://owasp.org/)® aka [owasp.org](https://owasp.org/) nonprofit foundation that works to improve the security of software. Read through their resources to understand Application Security better
+**⭐ Recommended**
+
+* [OWASP Cheat Sheet](https://cheatsheetseries.owasp.org//Glossary.html) - A good curated list of security cheatsheets for every developer to follow by [osasp.org](https://owasp.org/)
 * [TheHackerNews.com](https://thehackernews.com/) - latest news on breaches and security
-* [Content Security Policy](https://owasp.org/www-community/controls/Content_Security_Policy) - by osasp.org
-* [HTTP Strict Transport Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) - by osasp.org
+
+**Other**
+
+* [Open Web Application Security Project](https://owasp.org/)® aka [owasp.org](https://owasp.org/) non-profit foundation that works to improve the security of software. Read through their resources to understand Application Security better
 * [Security Through Education](https://www.social-engineer.org/)
 <!-- * []() - desc -->
 
