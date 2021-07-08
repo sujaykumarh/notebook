@@ -123,6 +123,28 @@
       //     // });
       //   },
       // ],
+
+      search: 'auto', // default
+
+      search : [
+        '/',              // => /
+        '/reading',       // => /reading
+        '/software',      // => /software
+        '/electronics',   // => /electronics
+        '/tools',         // => /tools
+        '/extra',         // => /extra
+        '/archive',       // => /archive
+      ],
+
+      // complete configuration parameters
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: [],  // or 'auto'
+        placeholder: 'Type to search',
+        noData: 'No Results found!',
+        depth: 4,   // Headline depth, 1 - 6
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+      }
     }
 
 
@@ -157,6 +179,9 @@
   <!-- Pagintation -->
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+
+  <!-- Search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
   <!-- Page Title -->
   <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.1.x/dist/plugin.min.js"></script>

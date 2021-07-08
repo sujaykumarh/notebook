@@ -134,6 +134,10 @@ a, a:hover {
     padding-top: 6rem;
 }
 
+.sidebar .search{
+    margin-top: 6rem;
+}
+
 body .sidebar-toggle{
     position: fixed;
     top: 0;
