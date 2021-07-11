@@ -43,6 +43,8 @@ links to some useful resources
 
 **Fonts**
 * [Google Fonts](https://fonts.google.com/) - Free fonts for typography
+* [type-scale.com](https://type-scale.com/) -  A Visual Type Scale Calculator, source on [github repo](https://github.com/jeremychurch/type-scale)
+<!-- * []() - desc -->
 
 **IconFonts**
 * [FontAwesome](https://fontawesome.com/icons?d=gallery&m=free) - largest collection of icon font
@@ -59,8 +61,10 @@ links to some useful resources
 
 ### 📷 Images / Illustrations / Videos
 
+* [unsplash.com](https://unsplash.com/) - large collection compared to pixabay, read [license](https://unsplash.com/license)
 * [pixabay.com](https://pixabay.com/) - good website to find images / videos / illustrations for projects
 * [undraw.co](https://undraw.co/) - unDraw is open-source illustrations
+* [uifaces.co](https://uifaces.co/) - lots of faces for ui mockups to choose from, read [license](https://uifaces.co/license)
 * [search.creativecommons.org](https://search.creativecommons.org/) - search engine to find images by [Creative Commons](https://creativecommons.org) license
 * [Free Illustrations](https://lukaszadam.com/illustrations) - free illustrations by lukaszadam
 * [pngimg.com](https://pngimg.com/) - by category license under [Creative Commons 4.0 BY-NC](https://pngimg.com/license)
