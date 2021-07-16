@@ -31,3 +31,7 @@
 **Security**
 
 * [Software Security](/software/security) - learn about software security.
+
+**Software**
+
+* [How to Backup and Restore Your GPG Key](https://risanb.com/code/backup-restore-gpg-key/)
