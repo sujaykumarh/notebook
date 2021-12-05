@@ -1,0 +1,51 @@
+# Build and Push Hugo site to gh-pages
+name: build-push
+
+# trigger events
+on:
+  workflow_dispatch:
+    
+  push:
+    branches:
+      - 'main'
+    paths-ignore:
+      - ".github/**"
+      - "README.md"
+      - "*.txt"
+      - "*.sh"
+      - "docker-compose.yml"
+    
+
+jobs:
+  
+  # Build & Push hugo site
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+
+      # Pull Source Code
+      - name: ✅ Checkout Source
+        uses: actions/checkout@v2
+
+      - name: ⬇️ pull git submodules
+        run: git submodule update --init --recursive
+
+      - name: 🔨 Build Hugo Site
+        run: |
+          cp .env.example .env
+          sh build.sh
+
+      - name: ℹ️ Setup files in dist
+        run: |
+          cp dist-readme.md dist/
+          cp CNAME dist/
+          touch dist/.nojekyll
+
+      - name: 🚀 Push to gh-pages
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: dist
+          MESSAGE: "🔨 Build gh-pages from {target-branch} {sha}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

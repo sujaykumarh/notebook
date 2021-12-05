@@ -1,20 +1,38 @@
 version: '3'
 
 networks:
-  mynotebook_network:
+  hugo_network_notebook:
     driver: bridge
 
+
 services:
-  docsify:
-    # user: ${CURRENT_UID}
-    image:  ghcr.io/sujaykumarh/docsify:latest
-    container_name: mynotebook_docsify
+
+  nginx:
+    image: nginx:stable-alpine
     restart: unless-stopped
-    networks:
-      - mynotebook_network
-    ports:
-      - $HTTP_PORT:3000
-      - $LIVE_SERVER:$LIVE_SERVER
     volumes:
-      - ./docs:/docs    # Source
-    command: serve --livereload-port=$LIVE_SERVER
+      - ./dist:/usr/share/nginx/html:ro
+    networks:
+      - hugo_network_notebook
+    ports:
+      - ${NGINX_PORT}:80
+
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    user: ${CURRENT_UID}
+    command: help
+    volumes:
+      - ".:/src"
+
+  serve:
+    image: klakegg/hugo:ext-alpine
+    container_name: mynotebook_hugo
+    user: ${CURRENT_UID}
+    restart: unless-stopped
+    command: ["server", "--watch" , "-D"]
+    volumes:
+      - "./:/src"
+    networks: 
+      - hugo_network_notebook
+    ports:
+      - $HTTP_PORT:1313
