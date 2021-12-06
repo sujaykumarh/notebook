@@ -12,7 +12,7 @@ bookToc: false
 
 * [🏠 Home](/ "Home")
 
-* [📚 Reading List](/reading "Reading List")
+* [📚 Books](/books "Books")
 
 * [💻 Software / Programming](/software/ "Programming Related")
 
