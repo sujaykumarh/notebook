@@ -148,7 +148,7 @@ Read respective resource license before you use any of these
 <small style="color: #909090">
 {{<details "Disclaimer">}}
 
-some links in this page are affiliate links
+Some links in this page are affiliate links. I may receive a commission for purchases made through these links.
 
 {{</details >}}
 </small>

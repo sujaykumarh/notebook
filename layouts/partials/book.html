@@ -1,0 +1,12 @@
+{{ range $i, $book := . }}
+<a class="book" href="{{ $book.link | absURL }}" target="_blank" rel="noopener noreferrer" title="{{ $book.title }} by {{ $book.author }}">
+   <div class="book-cover">
+     <img src="{{ $book.cover | absURL }}" alt="{{ $book.title }}">
+  </div>
+  <div class="book-details">
+    <b class="title">{{ $book.title }}</b>
+    by
+    <span class="author">{{ $book.author }}</span>
+  </div>
+</a>
+{{ end }}

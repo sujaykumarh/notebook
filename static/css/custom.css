@@ -53,7 +53,7 @@ hr{
 }
 
 
-.spaced{
+.spaced, spaced{
     /* background: red; */
     padding-bottom: .25rem;
 }
@@ -98,6 +98,54 @@ hr{
 
 .custom-footer .powered-by{
     text-align: right;
+}
+
+details summary:focus{
+    outline: none;
+}
+
+details .markdown-inner{
+    margin-top: 1rem;
+}
+
+
+/* Books */
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.books .book{
+    margin: .5rem;
+    text-align: center;
+}
+
+.books .book-details{
+    max-width: 100px;
+    font-size: .8rem;
+    color: #808080;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1rem;     /* fallback */
+    max-height: 3rem;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.books .book:hover{
+    color: #202020;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+
+.books img{
+    max-height: 180px;
+    width: auto;
 }
 
 

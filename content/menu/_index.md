@@ -8,7 +8,7 @@ headless: true
 
 <div class="spaced"></div>
 
-* [📚 Reading List](/reading "Reading List")
+* [📚 Books](/books "Books")
 
 <div class="spaced"></div>
 
