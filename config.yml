@@ -47,6 +47,11 @@ menu:
     - name: "Fork on Github"
       url: "https://github.com/sujaykumarh/my-notebook"
       weight: 20
+    - name: "------"
+      weight: 30
+    - name: "📘 Ansible Notebook"
+      url: "https://ansible.sujaykumarh.com/?utm_source=notebook&utm_medium=left-nav"
+      weight: 80
 
 params:
   copyright: "Sujaykumar Hublikar"

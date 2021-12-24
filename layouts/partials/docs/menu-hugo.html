@@ -11,15 +11,28 @@
 <ul class="menu-after">
   {{ range . }}
   <li>
-    <a href="{{ .URL }}" {{ if not .Page }}target="_blank" rel="noopener"{{ end }}>
-      {{- .Pre -}}
-      {{ with .Page }}
-        {{ partial "docs/title" .Page }}
+    {{ if .URL }}
+      <a href="{{ .URL }}" {{ if not .Page }}target="_blank" rel="noopener"{{ end }}>
+        {{- .Pre -}}
+        {{ with .Page }}
+          {{ partial "docs/title" .Page }}
+        {{ else }}
+          {{ .Name }}
+        {{ end }}
+        {{- .Post -}}
+      </a>   
+    {{ else }}
+      {{ if hasPrefix .Name "--" }}
+        <hr>
       {{ else }}
-        {{ .Name }}
+        <div>{{ .Name }}</div>
       {{ end }}
-      {{- .Post -}}
-    </a>
+    {{ end }}
+    {{ if .Children }}
+      <ul class="menu-after">
+        {{ template "book-menu-hugo" .Children }}
+      </ul>
+    {{ end }}
     {{- with .Children }}
       {{ template "book-menu-hugo" . }}
     {{- end }}

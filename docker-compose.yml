@@ -24,7 +24,7 @@ services:
     volumes:
       - ".:/src"
 
-  serve:
+  server:
     image: klakegg/hugo:ext-alpine
     container_name: mynotebook_hugo
     user: ${CURRENT_UID}
