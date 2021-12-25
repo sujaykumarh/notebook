@@ -1,0 +1,155 @@
+body, .book-menu .book-menu-content{
+    background: #fafafa;
+}
+
+hr{
+    border: unset;
+    background: unset;
+    border-top: 1px solid #a0a0a0;
+}
+
+.markdown pre{
+    background: #ffffff;
+}
+
+.book-search input{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.markdown .book-expand, .markdown .book-expand .book-expand-head{
+    background: #ffffff;
+}
+
+.book-expand .markdown-inner{
+    border-top: 1px solid #f5f5f5;
+}
+
+/* .book-menu{
+    height: 100vh;
+    border-right: 1px solid #f5f5f5;
+}
+
+.book-toc{
+    border-left: 1px solid #f5f5f5;
+} */
+
+.book-page{
+    padding: 2rem;
+
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+}
+
+.book-page article{
+    min-height: 600px;
+}
+
+.book-page h1{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+}
+
+
+.spaced, spaced{
+    /* background: red; */
+    padding-bottom: .25rem;
+}
+
+.book-menu input.toggle + label::after {
+    position: absolute;
+    margin-left: -1rem;
+}
+
+.book-menu hr{
+    border-top: 1px solid #f5f5f5;
+}
+
+.book-menu .menu-after{
+    border-top: 1px solid #f5f5f5;
+}
+
+.custom-footer{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+
+.custom-footer *{
+    color: #808080;
+}
+
+.custom-footer a{
+    color: #505050;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+
+.custom-footer a:hover{
+    color: #000;
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+
+.custom-footer .powered-by{
+    text-align: right;
+}
+
+details summary:focus{
+    outline: none;
+}
+
+details .markdown-inner{
+    margin-top: 1rem;
+}
+
+
+/* Books */
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.books .book{
+    margin: .5rem;
+    text-align: center;
+}
+
+.books .book-details{
+    max-width: 100px;
+    font-size: .8rem;
+    color: #808080;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1rem;     /* fallback */
+    max-height: 3rem;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.books .book:hover{
+    color: #202020;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+
+.books img{
+    max-height: 180px;
+    width: auto;
+}
+
+
+/* Responsive */
+@media screen and (min-width:80rem) {
+
+}
