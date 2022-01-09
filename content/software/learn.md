@@ -13,6 +13,7 @@ Good [YouTube Channels](/extra/youtube) for learning Software & Security ðŸ‘‰ [ð
 * [Git](https://git-scm.com/) - Version Control. most important tool for a dev.
     * [github.com](https://github.com/) - most popular git cloud solution
     * [gitlab.com](https://about.gitlab.com/) - other popular git cloud solution
+* follow [conventionalcommits.org](https://www.conventionalcommits.org) specifications for good **git commit** messages.
 * **RTFM** just read read the damm documentation no questions asked, every good project has an amazingly written documentation, learn to read it.
 
 <br>
