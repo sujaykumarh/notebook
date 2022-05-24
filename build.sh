@@ -14,5 +14,5 @@ echo "🔨 Building Hugo Site"
 EXTRA_PARAMS=$@
 
 echo "EXTRA_PARAMS: $EXTRA_PARAMS"
-CURRENT_UID="$(id -u):$(id -g)" docker-compose run --rm hugo build --minify --disableKinds=RSS --gc -v --cleanDestinationDir -d dist $EXTRA_PARAMS
+CURRENT_USER="$(id -u):$(id -g)" docker compose run --rm hugo build --minify --disableKinds=RSS --gc -v --cleanDestinationDir -d dist $EXTRA_PARAMS
 echo "✅ build complete"

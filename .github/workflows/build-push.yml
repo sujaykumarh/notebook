@@ -8,18 +8,17 @@ on:
   push:
     branches:
       - 'main'
-    paths-ignore:
-      - ".github/**"
-      - "README.md"
-      - "*.txt"
-      - "*.sh"
-      - "docker-compose.yml"
+    paths:
+      - "src/**/*"
     
 
 jobs:
   
   # Build & Push hugo site
   hugo:
+    name: build-push
+    if: ${{ github.repository == 'sujaykumarh/notebook' }}
+
     runs-on: ubuntu-latest
     steps:
 
@@ -37,15 +36,15 @@ jobs:
 
       - name: ℹ️ Setup files in dist
         run: |
-          cp dist-readme.md dist/
-          cp CNAME dist/
-          touch dist/.nojekyll
+          cp README.md src/dist/dist-readme.md
+          touch src/dist/.nojekyll
+          if [ -f "CNAME" ]; then cp CNAME src/dist/CNAME; fi
 
       - name: 🚀 Push to gh-pages
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: dist
+          FOLDER: src/dist
           MESSAGE: "🔨 Build gh-pages from {target-branch} {sha}"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

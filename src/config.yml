@@ -2,7 +2,7 @@ baseURL: 'https://notebook.sujaykumarh.com/'
 languageCode: 'en-us'
 title: 'Notebook'
 googleAnalytics: G-BVEPGGLZ7D
-theme: 'book'
+theme: 'notebook'
 
 ### Book Theme Config
 
@@ -49,7 +49,7 @@ menu:
       weight: 20
     - name: "------"
       weight: 30
-    - name: "📘 Ansible Notebook"
+    - name: "📘 Ansible Book"
       url: "https://ansible.sujaykumarh.com/?utm_source=notebook&utm_medium=left-nav"
       weight: 80
 

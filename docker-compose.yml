@@ -7,32 +7,37 @@ networks:
 
 services:
 
+  ## for testing static file from hugo build
   nginx:
-    image: nginx:stable-alpine
+    image: nginx:${DK_NGINX_VER:-stable-alpine}
+    container_name: ${DK_NGINX_NAME:-nginx_notebook}
     restart: unless-stopped
     volumes:
-      - ./dist:/usr/share/nginx/html:ro
+      - ${DIST_DIR:-./src/dist}:/usr/share/nginx/html:ro
     networks:
       - hugo_network_notebook
     ports:
-      - ${NGINX_PORT}:80
+      - ${NGINX_PORT:-9998}:80
 
+  # hugo service to run hugo commands
   hugo:
-    image: klakegg/hugo:ext-alpine
-    user: ${CURRENT_UID}
+    image: klakegg/hugo:${DK_HUGO_VER:-ext-alpine}
+    container_name: ${DK_HUGO_NAME:-hugo_notebook}
+    user: ${CURRENT_USER:-1000:1000}
     command: help
     volumes:
-      - ".:/src"
+      - ${SRC_DIR:-./src}:/src
 
+  # hugo server
   server:
-    image: klakegg/hugo:ext-alpine
-    container_name: mynotebook_hugo
-    user: ${CURRENT_UID}
+    image: klakegg/hugo:${DK_HUGO_VER:-ext-alpine}
+    container_name: ${DK_HUGO_SERVER_NAME:-hugo_notebook_server}
+    user: ${CURRENT_USER:-1000:1000}
     restart: unless-stopped
-    command: ["server", "--watch" , "-D"]
+    command: ["server", "--watch", "--port", "${HUGO_PORT:-1315}", "--liveReloadPort", "${HUGO_PORT:-1315}", "-D"]
     volumes:
-      - "./:/src"
+      - ${SRC_DIR:-./src}:/src
     networks: 
       - hugo_network_notebook
     ports:
-      - $HTTP_PORT:1313
+      - ${HUGO_PORT:-1315}:${HUGO_PORT:-1315}

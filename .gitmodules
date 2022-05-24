@@ -1,6 +1,3 @@
-[submodule "themes/book"]
-	path = themes/book
-	url = https://github.com/alex-shpak/hugo-book.git
 [submodule "src/themes/notebook"]
 	path = src/themes/notebook
 	url = https://github.com/sujaykumarh/hugo-notebook.git

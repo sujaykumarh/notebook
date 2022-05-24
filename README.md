@@ -50,3 +50,8 @@ Content is license under Creative Commons Zero- CC0
 ```
 
 Read [LICENSE](content-license.txt) for more details.
+
+<br>
+<br>
+
+<sub>powered by [hugo](https://gohugo.io) and [notebook](https://github.com/sujaykumarh/hugo-notebook) theme on GitHub Pages</sub>
