@@ -4,9 +4,9 @@
 
 <br>
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/sujaykumarh/my-notebook/build-push/main)](https://github.com/sujaykumarh/my-notebook/actions)
-[![LICENSE](https://img.shields.io/badge/code%20license-MIT-blue?logo=github&color=blue)](https://github.com/sujaykumarh/my-notebook/blob/main/LICENSE)
-[![LICENSE](https://img.shields.io/badge/content%20license-CC0-478277?logo=github)](https://github.com/sujaykumarh/my-notebook/blob/main/content-license.txt)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/sujaykumarh/notebook/build-push/main)](https://github.com/sujaykumarh/notebook/actions)
+[![LICENSE](https://img.shields.io/badge/code%20license-MIT-blue?logo=github&color=blue)](https://github.com/sujaykumarh/notebook/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/badge/content%20license-CC0-478277?logo=github)](https://github.com/sujaykumarh/notebook/blob/main/content-license.txt)
 
 <br>
 
