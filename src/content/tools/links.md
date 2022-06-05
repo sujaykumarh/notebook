@@ -15,11 +15,11 @@ Read respective resource license before you use any of these
 * [DuckDuckGo](https://start.duckduckgo.com/?kak=-1&kal=-1&kao=-1&kaq=-1&kae=d&kak=-1&kal=-1&kao=-1&kaq=-1&k1=-1&kam=google-maps&kax=-1&kap=-1&kau=-1&atb=v1-1) - Search Engine alternative to Google
 * [Libre Office](https://www.libreoffice.org/) - FOSS suite productivity software (presentation, word, excel and more..), alternative to MS Office suite
 * [Oracle VirtualBox](https://www.virtualbox.org/) - FOSS Virtual Machine manger by Oracle
-* [VLC](https://www.videolan.org/vlc/) - FOSS best Audio / Video player
+* [VLC](https://www.videolan.org/vlc/) - FOSS best Audio / Video player, [download](https://get.videolan.org/vlc/last/)
 * [FileZilla](https://filezilla-project.org/) - free file transfer client
 * [Brasero](https://wiki.gnome.org/Apps/Brasero/) - FOSS CD / DVD burner
 * [GNU Cash](https://gnucash.org/) - FOSS Accounting software
-* [ThunderBird](https://www.thunderbird.net/en-US/) - FOSS eMail client
+* [ThunderBird](https://www.thunderbird.net/) - FOSS eMail client, [download](https://www.thunderbird.net/en-US/thunderbird/releases/)
 <!-- * []() - desc -->
 
 **Windows**
