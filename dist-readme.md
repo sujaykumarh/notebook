@@ -36,7 +36,7 @@ It has a collection of notes, snippets, code and links to various resources.
 
 ## LICENSE
 
-**Code license:** [MIT](https://github.com/sujaykumarh/notebook/blob/main/LICENSE)  © 2021 [sujaykumarh](https://sujaykumarh.com)
+**Code license:** [MIT](https://github.com/sujaykumarh/notebook/blob/main/LICENSE)  © 2021 [sujaykumarh](https://github.com/sujaykumarh)
 
 **Content license:** [Creative Commons Zero - CC0](https://github.com/sujaykumarh/notebook/blob/main/LICENSE-CONTENT)
 
